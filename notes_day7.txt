@@ -1,0 +1,89 @@
+DAY 7 – Parameters, Arguments & Return
+
+Topic: Functions (Part 2)
+
+What I learned:
+
+1. Parameters
+- Parameters are placeholders inside a function.
+- They receive values when the function is called.
+
+Example:
+def greet(name):
+    print("Hello", name)
+
+2. Arguments
+- Arguments are the actual values passed into a function.
+
+Example:
+greet("Edwin")
+
+Parameter = name
+Argument = Edwin
+
+3. Multiple Parameters
+
+Example:
+def introduce(name, age):
+    print("My name is", name)
+    print("I am", age, "years old")
+
+introduce("Edwin", 26)
+
+4. Parameters are matched by position.
+
+Example:
+def add(a, b):
+    print(a + b)
+
+add(5, 3)
+
+a = 5
+b = 3
+
+Output:
+8
+
+5. Return
+
+return sends a value back to the program instead of printing it.
+
+Example:
+
+def square(number):
+    return number * number
+
+answer = square(5)
+
+print(answer)
+
+Output:
+25
+
+6. Difference between print() and return()
+
+print()
+- Displays information.
+- Does not store the value.
+
+return
+- Sends the value back.
+- Can be stored in a variable.
+- Can be used later in calculations.
+
+Example:
+
+result = add(10, 5)
+
+print(result * 2)
+
+Output:
+30
+
+Key Lessons:
+
+- def creates and stores a function.
+- function_name() runs the function.
+- Parameters are placeholders.
+- Arguments are the values passed into the function.
+- return sends values back for later use.
