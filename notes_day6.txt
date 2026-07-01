@@ -1,0 +1,48 @@
+DAY 6 – Python Functions (Part 1)
+
+Topic: Introduction to Functions
+
+What I learned:
+
+1. A function is a reusable block of code.
+
+2. Syntax:
+def function_name():
+    # code
+
+3. Creating a function does NOT execute it.
+
+Example:
+def greet():
+    print("Hello")
+
+Nothing happens until:
+
+greet()
+
+4. Calling a function executes the code inside it.
+
+5. A function can be called multiple times.
+
+Example:
+def greet():
+    print("Hello")
+
+greet()
+greet()
+
+Output:
+Hello
+Hello
+
+6. Python executes programs from top to bottom.
+
+When Python encounters a function call, it:
+- Jumps into the function
+- Executes the code
+- Returns to where it left off
+- Continues executing the program
+
+Lesson learned:
+Creating a function is like saving a contact.
+Calling a function is like making the phone call.

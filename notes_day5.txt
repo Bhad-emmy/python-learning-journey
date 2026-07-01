@@ -1,0 +1,89 @@
+DAY 5 – Python Notes (While Loops)
+
+Topic: While Loops
+
+A while loop repeats a block of code as long as a condition is True.
+
+Syntax:
+while condition:
+    # code
+
+Example:
+count = 1
+
+while count <= 5:
+    print(count)
+    count = count + 1
+
+Key points:
+- Python checks the condition before every iteration.
+- If the condition is True, the loop runs.
+- If the condition is False, the loop stops.
+- The variable controlling the loop must be updated inside the loop.
+- count = count + 1 means:
+  Take the current value of count, add 1, and save it back into count.
+- "<" means less than.
+- "<=" means less than or equal to.
+- ">" means greater than.
+
+Examples practiced:
+1. Count from 1 to 5.
+2. Count from 8 to 12.
+3. Increase by 2 (3, 5).
+4. Count backwards (10, 8, 6).
+
+Lesson learned:
+A while loop follows this pattern:
+1. Check condition.
+2. Execute code.
+3. Update variable.
+4. Repeat until the condition becomes False.
+
+
+DAY 5 – Python Notes (Loops)
+
+1. for loop
+- Used when the number of repetitions is known.
+- Example:
+for i in range(1, 6):
+    print(i)
+
+2. while loop
+- Used when the number of repetitions is unknown.
+- Runs until the condition becomes False.
+
+Example:
+count = 1
+
+while count <= 5:
+    print(count)
+    count += 1
+
+3. Infinite loop
+A while loop becomes infinite if the variable controlling the condition is never updated.
+
+Example:
+count = 1
+
+while count <= 5:
+    print(count)
+
+This never stops because count never changes.
+
+4. When to use each loop
+
+Use FOR:
+- Counting numbers
+- Printing multiplication tables
+- Looping through a fixed number of items
+
+Use WHILE:
+- Login systems
+- ATM PIN verification
+- Password checkers
+- Games
+- Menus that repeat until the user exits
+
+Key lesson:
+FOR = known number of repetitions.
+WHILE = unknown number of repetitions.

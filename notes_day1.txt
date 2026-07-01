@@ -1,0 +1,17 @@
+Day 1 Python Notes
+
+Topics:
+- Variables
+- Strings
+- Integers
+- Input
+- Output
+
+Programs Built:
+1. Name and Age
+2. Favorite Player
+3. Age Calculator
+4. Profile Generator
+
+Biggest Lesson:
+Computers only do exactly what I tell them to do.

@@ -1,0 +1,91 @@
+DAY 2 - FUNCTIONS
+
+What I Learned
+
+1. def means "define".
+
+   * It is used to create a function.
+
+Example:
+def greet():
+print("Hello")
+
+2. Creating a function is different from running a function.
+
+Create:
+def greet():
+print("Hello")
+
+Run:
+greet()
+
+3. Functions help organize code into reusable blocks.
+
+4. Functions can contain:
+
+   * Input
+   * Calculations
+   * Output
+
+Example:
+def age_checker():
+birth_year = int(input("Enter your birth year: "))
+age = 2026 - birth_year
+print("You are", age, "years old")
+
+5. Parameters allow functions to work with different values.
+
+Example:
+def greet(name):
+print("Hello", name)
+
+greet("Edwin")
+greet("Messi")
+
+Output:
+Hello Edwin
+Hello Messi
+
+Errors I Encountered
+
+1. IndentationError
+   Cause:
+   Code was not indented inside a function.
+
+Wrong:
+def greet():
+print("Hello")
+
+Correct:
+def greet():
+print("Hello")
+
+2. Function Not Running
+   Cause:
+   I created the function but forgot to call it.
+
+Wrong:
+def age_checker():
+pass
+
+Correct:
+age_checker()
+
+Programs Built Today
+
+* greet()
+* introduce()
+* ask_name()
+* age_checker()
+* favorite_player()
+* greet(name)
+
+Key Lesson
+
+A function is like a machine.
+
+def function_name():
+creates the machine
+
+function_name()
+runs the machine

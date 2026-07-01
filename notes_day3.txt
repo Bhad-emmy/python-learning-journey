@@ -1,0 +1,161 @@
+Day 3 Notes — Python Decision Making
+1. if
+
+Used when you want Python to do something only when a condition is true.
+
+Example:
+
+age = 20
+
+if age >= 18:
+    print("You can vote")
+
+Output:
+
+You can vote
+2. else
+
+Used when the if condition is false.
+
+Example:
+
+age = 15
+
+if age >= 18:
+    print("You can vote")
+else:
+    print("You cannot vote")
+
+Output:
+
+You cannot vote
+3. elif
+
+Used when you have multiple conditions.
+
+Example:
+
+score = 65
+
+if score >= 70:
+    print("Grade A")
+
+elif score >= 60:
+    print("Grade B")
+
+else:
+    print("Fail")
+
+Output:
+
+Grade B
+4. Comparison Operators
+Operator	Meaning
+==	Equal to
+!=	Not equal to
+>	Greater than
+<	Less than
+>=	Greater than or equal to
+<=	Less than or equal to
+
+Examples:
+
+age >= 18
+score == 70
+5. Logical Operator: and
+
+Both conditions must be true.
+
+Example:
+
+age = 20
+has_id = "yes"
+
+if age >= 18 and has_id == "yes":
+    print("Access granted")
+
+Output:
+
+Access granted
+6. Logical Operator: or
+
+Only one condition needs to be true.
+
+Example:
+
+day = "saturday"
+
+if day == "saturday" or day == "sunday":
+    print("Weekend")
+
+Output:
+
+Weekend
+7. Grade Calculator Program
+score = int(input("Enter your score: "))
+
+if score >= 70:
+    print("Grade A")
+
+elif score >= 60:
+    print("Grade B")
+
+elif score >= 50:
+    print("Grade C")
+
+elif score >= 40:
+    print("Grade D")
+
+else:
+    print("Fail")
+8. Age Classifier Program
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("You are an adult")
+
+elif 13 <= age <= 17:
+    print("You are a teenager")
+
+else:
+    print("You are a child")
+9. Access Control Program
+age = int(input("Enter your age: "))
+has_id = input("Do you have an ID? (yes/no): ")
+
+if age >= 18 and has_id.lower() == "yes":
+    print("Access granted")
+else:
+    print("Access denied")
+Key Idea From Today
+
+Your Make.com router and Python conditionals are the same concept.
+
+IF condition is true
+    Do Task A
+
+ELIF another condition is true
+    Do Task B
+
+ELSE
+    Do Task C
+Homework for Next Session
+
+Be able to explain in your own words:
+
+if
+elif
+else
+and
+or
+Next Python Topic
+
+Loops
+
+for loops
+while loops
+Number counter
+Countdown timer
+Multiplication table generator
+
+Save this as Day 3 Notes in notes_day3.txt before you close VS Code.

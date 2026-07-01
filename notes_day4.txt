@@ -1,0 +1,70 @@
+Day 4 Notes — for Loops
+DAY 4 — FOR LOOPS
+
+Topic:
+For loops and range()
+
+What I learned:
+- A for loop repeats code.
+- The loop variable changes on every repetition.
+- range() creates a sequence of numbers.
+
+Basic structure:
+for number in range(1, 6):
+    print(number)
+
+This prints:
+1
+2
+3
+4
+5
+
+Important rule:
+range(start, stop) does NOT include the stop number.
+
+Example:
+range(1, 6)
+Starts at 1 and stops before 6.
+
+Range with a step:
+range(start, stop, step)
+
+Example:
+range(2, 21, 2)
+
+This means:
+- Start at 2
+- Stop before 21
+- Jump by 2 each time
+
+Output:
+2
+4
+6
+8
+10
+12
+14
+16
+18
+20
+
+Programs completed:
+1. Number counter from 1 to 5
+2. Counter from 5 to 20
+3. Multiplication table generator
+4. Even-number generator
+
+Multiplication table logic:
+number = int(input("Enter a number: "))
+
+for multiplier in range(1, 13):
+    answer = number * multiplier
+    print(number, "x", multiplier, "=", answer)
+
+Key takeaway:
+Use a for loop when you know how many times you want code to repeat.
+
+Next topic:
+While loops
