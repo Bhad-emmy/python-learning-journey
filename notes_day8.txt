@@ -1,0 +1,101 @@
+DAY 8 – LISTS
+
+Topic: Python Lists
+
+What I learned:
+
+1. What is a List?
+- A list stores multiple values in a single variable.
+- Lists are created using square brackets [].
+
+Example:
+fruits = ["Apple", "Orange", "Banana"]
+
+2. Printing a List
+
+print(fruits)
+
+Output:
+['Apple', 'Orange', 'Banana']
+
+3. Indexes
+
+Python starts counting from 0.
+
+Example:
+
+fruits = ["Apple", "Orange", "Banana"]
+
+fruits[0] = Apple
+fruits[1] = Orange
+fruits[2] = Banana
+
+4. Accessing Items
+
+print(fruits[1])
+
+Output:
+Orange
+
+5. Changing Items
+
+fruits[1] = "Mango"
+
+Output:
+['Apple', 'Mango', 'Banana']
+
+6. Adding Items
+
+append() adds an item to the end of a list.
+
+Example:
+
+fruits.append("Pineapple")
+
+Output:
+['Apple', 'Mango', 'Banana', 'Pineapple']
+
+7. Removing Items
+
+remove() removes an item by value.
+
+Example:
+
+fruits.remove("Mango")
+
+Output:
+['Apple', 'Banana', 'Pineapple']
+
+8. Counting Items
+
+len() returns the number of items in a list.
+
+Example:
+
+students = ["Edwin", "David", "Sarah"]
+
+print(len(students))
+
+Output:
+3
+
+Key Lessons:
+
+- Lists store multiple values.
+- Lists use square brackets [].
+- Python indexes start at 0.
+- append() adds items.
+- remove() removes items.
+- len() counts items.
+
+Topics Completed:
+✓ Creating Lists
+✓ Printing Lists
+✓ Indexing
+✓ Modifying Lists
+✓ append()
+✓ remove()
+✓ len()
+
+Next Lesson:
+- Looping through lists using for loops.
