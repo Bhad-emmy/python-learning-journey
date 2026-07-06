@@ -1,0 +1,107 @@
+DAY 9 – PYTHON TUPLES
+
+Topics Covered
+
+1. What is a Tuple?
+
+A tuple stores multiple values just like a list.
+
+Example:
+
+countries = ("Nigeria", "Ghana", "Kenya")
+
+Difference:
+
+List  -> []
+Tuple -> ()
+
+--------------------------------------------
+
+2. Printing a Tuple
+
+print(countries)
+
+Output:
+
+('Nigeria', 'Ghana', 'Kenya')
+
+--------------------------------------------
+
+3. Indexing
+
+Python starts counting from 0.
+
+countries[0] = Nigeria
+countries[1] = Ghana
+countries[2] = Kenya
+
+--------------------------------------------
+
+4. Tuples are Immutable
+
+A tuple cannot be changed after it is created.
+
+Example:
+
+colors = ("Red", "Blue", "Green")
+
+colors[0] = "Yellow"
+
+Result:
+
+TypeError
+
+--------------------------------------------
+
+5. Counting Items
+
+len()
+
+Example:
+
+print(len(countries))
+
+Output:
+
+3
+
+--------------------------------------------
+
+6. Looping Through Tuples
+
+for country in countries:
+    print(country)
+
+Output:
+
+Nigeria
+Ghana
+Kenya
+
+--------------------------------------------
+
+Loop Example
+
+numbers = (2,4,6)
+
+for number in numbers:
+    print(number * 3)
+
+Output:
+
+6
+12
+18
+
+--------------------------------------------
+
+Key Lessons
+
+✓ Tuples use ()
+✓ Lists use []
+✓ Tuples cannot be modified
+✓ Tuples support indexing
+✓ len() counts items
+✓ for loops work with tuples
+
+End of Day 9
