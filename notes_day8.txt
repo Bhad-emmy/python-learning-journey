@@ -1,101 +1,87 @@
-DAY 8 – LISTS
+DAY 8 – PYTHON LISTS
 
-Topic: Python Lists
+Topics Covered
 
-What I learned:
-
-1. What is a List?
-- A list stores multiple values in a single variable.
-- Lists are created using square brackets [].
+1. Creating Lists
+A list stores multiple values in one variable.
 
 Example:
 fruits = ["Apple", "Orange", "Banana"]
 
-2. Printing a List
+2. Printing Lists
 
 print(fruits)
 
 Output:
 ['Apple', 'Orange', 'Banana']
 
-3. Indexes
+3. Indexing
 
 Python starts counting from 0.
-
-Example:
-
-fruits = ["Apple", "Orange", "Banana"]
 
 fruits[0] = Apple
 fruits[1] = Orange
 fruits[2] = Banana
 
-4. Accessing Items
-
-print(fruits[1])
-
-Output:
-Orange
-
-5. Changing Items
+4. Modifying Items
 
 fruits[1] = "Mango"
 
-Output:
-['Apple', 'Mango', 'Banana']
+5. Adding Items
 
-6. Adding Items
-
-append() adds an item to the end of a list.
+append()
 
 Example:
-
 fruits.append("Pineapple")
 
-Output:
-['Apple', 'Mango', 'Banana', 'Pineapple']
+6. Removing Items
 
-7. Removing Items
-
-remove() removes an item by value.
+remove()
 
 Example:
-
 fruits.remove("Mango")
 
-Output:
-['Apple', 'Banana', 'Pineapple']
+7. Counting Items
 
-8. Counting Items
-
-len() returns the number of items in a list.
+len()
 
 Example:
+print(len(fruits))
 
-students = ["Edwin", "David", "Sarah"]
+8. Looping Through Lists
 
-print(len(students))
+for fruit in fruits:
+    print(fruit)
+
+Python takes one item at a time from the list until it reaches the end.
+
+Example Output:
+
+Apple
+Orange
+Banana
+Mango
+
+Loop Example
+
+scores = [50, 70, 90]
+
+for score in scores:
+    print(score + 10)
 
 Output:
-3
 
-Key Lessons:
+60
+80
+100
 
-- Lists store multiple values.
-- Lists use square brackets [].
-- Python indexes start at 0.
-- append() adds items.
-- remove() removes items.
-- len() counts items.
+Key Lessons
 
-Topics Completed:
-✓ Creating Lists
-✓ Printing Lists
-✓ Indexing
-✓ Modifying Lists
-✓ append()
-✓ remove()
-✓ len()
+✓ Lists store multiple values.
+✓ Python starts indexing from 0.
+✓ append() adds items.
+✓ remove() removes items.
+✓ len() counts items.
+✓ for loops process every item in a list automatically.
 
-Next Lesson:
-- Looping through lists using for loops.
+End of Day 8.
