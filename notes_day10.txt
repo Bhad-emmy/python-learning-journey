@@ -1,0 +1,128 @@
+DAY 10 - PYTHON DICTIONARIES
+
+1. WHAT IS A DICTIONARY?
+
+A dictionary stores data as key-value pairs.
+
+Example:
+
+student = {
+    "name": "Edwin",
+    "age": 26
+}
+
+"name" is a key.
+"Edwin" is its value.
+
+"age" is a key.
+26 is its value.
+
+
+2. PYTHON COLLECTION SYMBOLS
+
+[] = List
+() = Tuple
+{} = Dictionary
+
+
+3. ACCESSING VALUES
+
+Use the dictionary name and the key.
+
+Example:
+
+print(student["name"])
+
+Output:
+
+Edwin
+
+
+4. CHANGING VALUES
+
+Dictionaries can be changed.
+
+Example:
+
+student["age"] = 27
+
+This changes the value connected to the "age" key.
+
+
+5. ADDING KEY-VALUE PAIRS
+
+A new key can be added to a dictionary.
+
+Example:
+
+student["country"] = "Nigeria"
+
+If the key does not already exist, Python adds it.
+
+
+6. DELETING DATA
+
+Use del to remove a key-value pair.
+
+Example:
+
+del student["age"]
+
+This removes the "age" key and its value.
+
+
+7. LOOPING THROUGH KEYS
+
+Example:
+
+for key in student:
+    print(key)
+
+This prints the dictionary keys.
+
+
+8. LOOPING THROUGH VALUES
+
+Use .values()
+
+Example:
+
+for value in student.values():
+    print(value)
+
+This prints the dictionary values.
+
+
+9. LOOPING THROUGH KEYS AND VALUES
+
+Use .items()
+
+Example:
+
+for key, value in student.items():
+    print(key, value)
+
+This prints both the keys and their values.
+
+
+KEY LESSONS
+
+- Dictionaries use {}
+- Dictionaries store key-value pairs
+- Keys are used to access values
+- Dictionary values can be changed
+- New key-value pairs can be added
+- del removes key-value pairs
+- dictionary loops through keys
+- .values() loops through values
+- .items() loops through keys and values
+
+
+IMPORTANT MEMORY RULE
+
+dictionary          = keys
+dictionary.values() = values
+dictionary.items()  = keys and values
+
+
+END OF DAY 10
